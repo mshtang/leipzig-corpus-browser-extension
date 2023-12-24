@@ -1,10 +1,11 @@
+import availableCorpus from '@assets/dataSource/availableCorpus.json';
 import { useState } from 'react';
 import Modal from 'react-modal';
 
 const Settings = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [darkTheme, setDarkTheme] = useState(false);
-  const [selectedCorpus, setSelectedCorpus] = useState('');
+  const [selectedCorpus, setSelectedCorpus] = useState(availableCorpus[0]?.corpusName || '');
   const [itemsToShow, setItemsToShow] = useState(10);
 
   const openModal = () => {
@@ -41,8 +42,11 @@ const Settings = () => {
           <label>
             Available Corpora:
             <select value={selectedCorpus} onChange={handleCorpusChange}>
-              <option value="">Select a corpus</option>
-              {/* Render options dynamically from availableCorpus.json */}
+              {availableCorpus.map(corpus => (
+                <option key={corpus.corpusName} value={corpus.corpusName}>
+                  {corpus.corpusName}
+                </option>
+              ))}
             </select>
           </label>
         </div>
