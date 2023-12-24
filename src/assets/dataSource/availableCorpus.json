@@ -1,0 +1,37 @@
+[
+  {
+    "corpusName": "deu_news_2012_3M",
+    "description": "German news subcorpus based on material from 2012 (3,000,000 sentences)",
+    "description_deu": "Deutsches Nachrichten-Teilkorpus basierend auf Texten von 2012 (3.000.000 Sätze)",
+    "numberOfSentences": 3000000,
+    "numberOfTypes": 1505382,
+    "numberOfTokens": 50687712,
+    "thanksTo": "",
+    "posTagger": "",
+    "annotations": "wordsLevenshteinSim"
+  },
+
+  {
+    "corpusName": "deu_wikipedia_2010_1M",
+    "description": "German Wikipedia subcorpus based on material from 2010 (1,000,000 sentences)",
+    "description_deu": "Deutsches Wikipedia-Teilkorpus basierend auf Texten von 2010 (1.000.000 Sätze)",
+    "numberOfSentences": 1000000,
+    "numberOfTypes": 1008650,
+    "numberOfTokens": 17051803,
+    "thanksTo": "Data,Wikipedia,https://www.wikipedia.org",
+    "posTagger": "TreeTagger",
+    "annotations": "coocSim, GDEX, POS (TreeTagger - TreeTagger), wordsLevenshteinSim"
+  },
+
+  {
+    "corpusName": "deu_wikipedia_2010_1M",
+    "description": "German Wikipedia subcorpus based on material from 2010 (1,000,000 sentences)",
+    "description_deu": "Deutsches Wikipedia-Teilkorpus basierend auf Texten von 2010 (1.000.000 Sätze)",
+    "numberOfSentences": 1000000,
+    "numberOfTypes": 1008650,
+    "numberOfTokens": 17051803,
+    "thanksTo": "Data,Wikipedia,https://www.wikipedia.org",
+    "posTagger": "TreeTagger",
+    "annotations": "coocSim, GDEX, POS (TreeTagger - TreeTagger), wordsLevenshteinSim"
+  }
+]
