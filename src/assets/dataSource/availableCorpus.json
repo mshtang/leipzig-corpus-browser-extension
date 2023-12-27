@@ -10,7 +10,17 @@
     "posTagger": "",
     "annotations": "wordsLevenshteinSim"
   },
-
+  {
+    "corpusName": "deu_news_2010_1M",
+    "description": "German news subcorpus based on material from 2010 (1,000,000 sentences)",
+    "description_deu": "Deutsches Nachrichten-Teilkorpus basierend auf Texten von 2010 (1.000.000 Sätze)",
+    "numberOfSentences": 1000000,
+    "numberOfTypes": 844797,
+    "numberOfTokens": 17052446,
+    "thanksTo": "",
+    "posTagger": "",
+    "annotations": "coocSim, wordsLevenshteinSim"
+  },
   {
     "corpusName": "deu_wikipedia_2010_1M",
     "description": "German Wikipedia subcorpus based on material from 2010 (1,000,000 sentences)",
@@ -22,16 +32,59 @@
     "posTagger": "TreeTagger",
     "annotations": "coocSim, GDEX, POS (TreeTagger - TreeTagger), wordsLevenshteinSim"
   },
-
   {
-    "corpusName": "deu_wikipedia_2010_1M",
-    "description": "German Wikipedia subcorpus based on material from 2010 (1,000,000 sentences)",
-    "description_deu": "Deutsches Wikipedia-Teilkorpus basierend auf Texten von 2010 (1.000.000 Sätze)",
+    "corpusName": "deu_news_2012_1M",
+    "description": "German news subcorpus based on material from 2012 (1,000,000 sentences)",
+    "description_deu": "Deutsches Nachrichten-Teilkorpus basierend auf Texten von 2012 (1.000.000 Sätze)",
     "numberOfSentences": 1000000,
-    "numberOfTypes": 1008650,
-    "numberOfTokens": 17051803,
-    "thanksTo": "Data,Wikipedia,https://www.wikipedia.org",
+    "numberOfTypes": 780394,
+    "numberOfTokens": 16898449,
+    "thanksTo": "",
     "posTagger": "TreeTagger",
     "annotations": "coocSim, GDEX, POS (TreeTagger - TreeTagger), wordsLevenshteinSim"
+  },
+  {
+    "corpusName": "deu_news_2010_100K",
+    "description": "German news subcorpus based on material from 2010 (100,000 sentences)",
+    "description_deu": "Deutsches Nachrichten-Teilkorpus basierend auf Texten von 2010 (100.000 Sätze)",
+    "numberOfSentences": 100000,
+    "numberOfTypes": 195385,
+    "numberOfTokens": 1705473,
+    "thanksTo": "",
+    "posTagger": "",
+    "annotations": "coocSim, wordsLevenshteinSim"
+  },
+  {
+    "corpusName": "deu_news_2008_100K",
+    "description": "German news subcorpus based on material from 2008 (100,000 sentences)",
+    "description_deu": "Deutsches Nachrichten-Teilkorpus basierend auf Texten von 2008 (100.000 Sätze)",
+    "numberOfSentences": 100000,
+    "numberOfTypes": 193649,
+    "numberOfTokens": 1676598,
+    "thanksTo": "",
+    "posTagger": "",
+    "annotations": ""
+  },
+  {
+    "corpusName": "deu_news_2010_10K",
+    "description": "German news subcorpus based on material from 2010 (10,000 sentences)",
+    "description_deu": "Deutsches Nachrichten-Teilkorpus basierend auf Texten von 2010 (10.000 Sätze)",
+    "numberOfSentences": 10000,
+    "numberOfTypes": 40982,
+    "numberOfTokens": 171989,
+    "thanksTo": "",
+    "posTagger": "",
+    "annotations": "coocSim, wordsLevenshteinSim"
+  },
+  {
+    "corpusName": "deu_news_2008_10K",
+    "description": "German news subcorpus based on material from 2008 (10,000 sentences)",
+    "description_deu": "Deutsches Nachrichten-Teilkorpus basierend auf Texten von 2008 (10.000 Sätze)",
+    "numberOfSentences": 10000,
+    "numberOfTypes": 40013,
+    "numberOfTokens": 167046,
+    "thanksTo": "",
+    "posTagger": "",
+    "annotations": ""
   }
 ]
