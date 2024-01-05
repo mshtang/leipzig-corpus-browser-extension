@@ -1,3 +1,4 @@
+import { Link, ListItem, Text } from '@chakra-ui/react';
 import React from 'react';
 import { Sentence, Source } from '../types/ApiResponseInterfaces';
 
@@ -13,20 +14,22 @@ const Sentence: React.FC<SentenceProps> = ({ sentence, source, queryWord }) => {
   const domain = hostname.replace('www.', '');
 
   return (
-    <li>
-      {sentence
-        .split(new RegExp(`(${queryWord})`, 'gi'))
-        .map((part, index) =>
-          part.toLowerCase() === queryWord.toLowerCase() ? <strong key={index}>{part}</strong> : part,
-        )}
-      <p>
+    <ListItem p={4} border="1px" borderColor="gray.200" borderRadius="md" mb={4}>
+      <Text>
+        {sentence
+          .split(new RegExp(`(${queryWord})`, 'gi'))
+          .map((part, index) =>
+            part.toLowerCase() === queryWord.toLowerCase() ? <strong key={index}>{part}</strong> : part,
+          )}
+      </Text>
+      <Text mt={2}>
         Source:{' '}
-        <a href={source.url} target="_blank" rel="noopener noreferrer">
+        <Link href={source.url} isExternal color="teal.500">
           {domain}
-        </a>
-      </p>
-      <p>Date: {source.date}</p>
-    </li>
+        </Link>
+      </Text>
+      <Text mt={2}>Date: {source.date}</Text>
+    </ListItem>
   );
 };
 

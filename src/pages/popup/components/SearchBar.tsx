@@ -1,4 +1,4 @@
-import logo from '@assets/img/logo.svg';
+import { Box, Button, Input, List, Text, VStack } from '@chakra-ui/react';
 import React, { useContext, useState } from 'react';
 import { SettingsContext } from '../contexts/SettingsContext';
 import { ApiResponseForSentence } from '../types/ApiResponseInterfaces';
@@ -31,22 +31,20 @@ const SearchBar: React.FC = () => {
   };
 
   return (
-    <div>
-      <form onSubmit={handleFormSubmit}>
-        <input type="text" value={query} onChange={handleQueryChange} placeholder="Type to search" />
-        <button type="submit">
-          <img src={logo} alt="search button" />
-        </button>
-      </form>
-      {error && <div>Error: {error}</div>}
-      {results && (
-        <ul>
-          {results.sentences.map(sentence => (
-            <Sentence key={sentence.id} queryWord={query} {...sentence} />
-          ))}
-        </ul>
-      )}
-    </div>
+    <VStack spacing={4} align="stretch">
+      <Box as="form" onSubmit={handleFormSubmit}>
+        <Input placeholder="Search..." value={query} onChange={handleQueryChange} />
+        <Button mt={2} colorScheme="teal" type="submit">
+          Search
+        </Button>
+      </Box>
+      <List spacing={3}>
+        {results?.sentences.map((sentence, index) => (
+          <Sentence key={index} sentence={sentence.sentence} source={sentence.source} queryWord={query} />
+        ))}
+      </List>
+      <Text>{error}</Text>
+    </VStack>
   );
 };
 
