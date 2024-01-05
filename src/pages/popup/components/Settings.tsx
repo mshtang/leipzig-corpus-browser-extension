@@ -14,6 +14,7 @@ import {
   Select,
   Stack,
   Switch,
+  Text,
   useDisclosure,
 } from '@chakra-ui/react';
 import { useContext, useState } from 'react';
@@ -69,7 +70,7 @@ const Settings = () => {
                     </option>
                   ))}
                 </Select>
-                <p>{getCorpusDescription(selectedCorpus)}</p>
+                <Text>{getCorpusDescription(selectedCorpus)}</Text>
               </FormControl>
               <FormControl>
                 <FormLabel>Items to show:</FormLabel>

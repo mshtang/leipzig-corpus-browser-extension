@@ -1,3 +1,4 @@
+import logo from '@assets/img/logo.svg';
 import { Box, Button, Input, List, Text, VStack } from '@chakra-ui/react';
 import React, { useContext, useState } from 'react';
 import { SettingsContext } from '../contexts/SettingsContext';
@@ -33,9 +34,9 @@ const SearchBar: React.FC = () => {
   return (
     <VStack spacing={4} align="stretch">
       <Box as="form" onSubmit={handleFormSubmit}>
-        <Input placeholder="Search..." value={query} onChange={handleQueryChange} />
+        <Input placeholder="Type a word" value={query} onChange={handleQueryChange} />
         <Button mt={2} colorScheme="teal" type="submit">
-          Search
+          <img src={logo} alt="search button" className="App-logo" style={{ height: '100%' }} />
         </Button>
       </Box>
       <List spacing={3}>

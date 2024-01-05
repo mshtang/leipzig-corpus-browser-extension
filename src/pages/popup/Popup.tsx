@@ -1,4 +1,5 @@
 import availableCorpus from '@assets/dataSource/availableCorpus.json';
+import { VStack } from '@chakra-ui/react';
 import '@pages/popup/Popup.css';
 import withErrorBoundary from '@src/shared/hoc/withErrorBoundary';
 import withSuspense from '@src/shared/hoc/withSuspense';
@@ -13,10 +14,10 @@ const Popup = () => {
 
   return (
     <SettingsContext.Provider value={{ selectedCorpus, itemsToShow, setSelectedCorpus, setItemsToShow }}>
-      <div>
+      <VStack>
         <Settings />
         <SearchBar />
-      </div>
+      </VStack>
     </SettingsContext.Provider>
   );
 };
