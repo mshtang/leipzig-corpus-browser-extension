@@ -1,5 +1,5 @@
 import availableCorpus from '@assets/dataSource/availableCorpus.json';
-import { VStack } from '@chakra-ui/react';
+import { Grid, GridItem } from '@chakra-ui/react';
 import '@pages/popup/Popup.css';
 import withErrorBoundary from '@src/shared/hoc/withErrorBoundary';
 import withSuspense from '@src/shared/hoc/withSuspense';
@@ -14,10 +14,14 @@ const Popup = () => {
 
   return (
     <SettingsContext.Provider value={{ selectedCorpus, itemsToShow, setSelectedCorpus, setItemsToShow }}>
-      <VStack>
-        <Settings />
-        <SearchBar />
-      </VStack>
+      <Grid templateColumns="repeat(6, 1fr)" gap={6} className="App">
+        <GridItem colStart={2} colSpan={4}>
+          <SearchBar />
+        </GridItem>
+        <GridItem colStart={6} colSpan={1}>
+          <Settings />
+        </GridItem>
+      </Grid>
     </SettingsContext.Provider>
   );
 };

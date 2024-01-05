@@ -1,5 +1,5 @@
 import logo from '@assets/img/logo.svg';
-import { Box, Button, Input, List, Text, VStack } from '@chakra-ui/react';
+import { Button, HStack, Input, List, Text, VStack } from '@chakra-ui/react';
 import React, { useContext, useState } from 'react';
 import { SettingsContext } from '../contexts/SettingsContext';
 import { ApiResponseForSentence } from '../types/ApiResponseInterfaces';
@@ -33,18 +33,18 @@ const SearchBar: React.FC = () => {
 
   return (
     <VStack spacing={4} align="stretch">
-      <Box as="form" onSubmit={handleFormSubmit}>
+      <HStack as="form" onSubmit={handleFormSubmit}>
         <Input placeholder="Type a word" value={query} onChange={handleQueryChange} />
         <Button mt={2} colorScheme="teal" type="submit">
           <img src={logo} alt="search button" className="App-logo" style={{ height: '100%' }} />
         </Button>
-      </Box>
+      </HStack>
       <List spacing={3}>
         {results?.sentences.map((sentence, index) => (
           <Sentence key={index} sentence={sentence.sentence} source={sentence.source} queryWord={query} />
         ))}
       </List>
-      <Text>{error}</Text>
+      {error && <Text>{error}</Text>}
     </VStack>
   );
 };

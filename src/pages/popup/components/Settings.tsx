@@ -46,14 +46,7 @@ const Settings = () => {
   return (
     <SettingsContext.Provider value={{ selectedCorpus, itemsToShow, setSelectedCorpus, setItemsToShow }}>
       <>
-        <Button
-          onClick={onOpen}
-          variant="ghost"
-          rightIcon={<Icon as={FaCog} />}
-          position="absolute"
-          top="5"
-          right="5"
-        />
+        <Button onClick={onOpen} variant="ghost" rightIcon={<Icon as={FaCog} />} />
         <Modal isOpen={isOpen} onClose={onClose}>
           <ModalOverlay />
           <ModalContent>
