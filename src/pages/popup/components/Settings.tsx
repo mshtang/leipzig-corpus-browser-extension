@@ -1,33 +1,29 @@
 import availableCorpus from '@assets/dataSource/availableCorpus.json';
 import {
   Button,
+  FormControl,
+  FormLabel,
   Icon,
+  Modal,
   ModalBody,
   ModalCloseButton,
   ModalContent,
-  ModalFooter,
   ModalHeader,
   ModalOverlay,
+  RadioGroup,
+  Select,
+  Stack,
   Switch,
   useDisclosure,
 } from '@chakra-ui/react';
 import { useContext, useState } from 'react';
 import { FaCog } from 'react-icons/fa';
-import Modal from 'react-modal';
 import { SettingsContext } from '../contexts/SettingsContext';
 
 const Settings = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [darkTheme, setDarkTheme] = useState(false);
   const { selectedCorpus, setSelectedCorpus, itemsToShow, setItemsToShow } = useContext(SettingsContext);
-
-  const onOpen = () => {
-    setIsModalOpen(true);
-  };
-
-  const onClose = () => {
-    setIsModalOpen(false);
-  };
 
   const handleDarkThemeChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setDarkTheme(event.target.checked);
@@ -37,8 +33,8 @@ const Settings = () => {
     setSelectedCorpus(event.target.value);
   };
 
-  const handleItemsToShowChange = (event: React.ChangeEvent<HTMLSelectElement>) => {
-    setItemsToShow(Number(event.target.value));
+  const handleItemsToShowChange = (numItems: string) => {
+    setItemsToShow(Number(numItems));
   };
 
   const getCorpusDescription = (corpusName: string) => {
@@ -48,7 +44,7 @@ const Settings = () => {
 
   return (
     <SettingsContext.Provider value={{ selectedCorpus, itemsToShow, setSelectedCorpus, setItemsToShow }}>
-      <div>
+      <>
         <Button
           onClick={onOpen}
           variant="ghost"
@@ -64,39 +60,31 @@ const Settings = () => {
             <ModalCloseButton />
             <ModalBody>
               <Switch isChecked={darkTheme} onChange={handleDarkThemeChange} />
-              <div>
-                <label>
-                  Available Corpora:
-                  <select value={selectedCorpus} onChange={handleCorpusChange}>
-                    {availableCorpus.map(corpus => (
-                      <option key={corpus.corpusName} value={corpus.corpusName}>
-                        {corpus.corpusName}
-                      </option>
-                    ))}
-                  </select>
-                </label>
+              <FormControl>
+                <FormLabel>Available Corpora</FormLabel>
+                <Select value={selectedCorpus} onChange={handleCorpusChange}>
+                  {availableCorpus.map(corpus => (
+                    <option key={corpus.corpusName} value={corpus.corpusName}>
+                      {corpus.corpusName}
+                    </option>
+                  ))}
+                </Select>
                 <p>{getCorpusDescription(selectedCorpus)}</p>
-              </div>
-              <div>
-                <label>
-                  Items to Show:
-                  <select value={itemsToShow} onChange={handleItemsToShowChange}>
+              </FormControl>
+              <FormControl>
+                <FormLabel>Items to show:</FormLabel>
+                <RadioGroup value={itemsToShow.toString()} onChange={handleItemsToShowChange}>
+                  <Stack direction="row">
                     <option value={5}>5</option>
                     <option value={10}>10</option>
                     <option value={15}>15</option>
-                  </select>
-                </label>
-              </div>
-              <button onClick={closeModal}>Close</button>
+                  </Stack>
+                </RadioGroup>
+              </FormControl>
             </ModalBody>
-            <ModalFooter>
-              <Button colorScheme="blue" mr={3} onClick={onClose}>
-                Close
-              </Button>
-            </ModalFooter>
           </ModalContent>
         </Modal>
-      </div>
+      </>
     </SettingsContext.Provider>
   );
 };
