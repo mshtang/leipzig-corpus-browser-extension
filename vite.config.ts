@@ -1,10 +1,10 @@
 /// <reference types="vitest" />
-import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import path, { resolve } from 'path';
-import makeManifest from './utils/plugins/make-manifest';
-import customDynamicImport from './utils/plugins/custom-dynamic-import';
+import { defineConfig } from 'vite';
 import addHmr from './utils/plugins/add-hmr';
+import customDynamicImport from './utils/plugins/custom-dynamic-import';
+import makeManifest from './utils/plugins/make-manifest';
 import watchRebuild from './utils/plugins/watch-rebuild';
 
 const rootDir = resolve(__dirname);
@@ -68,6 +68,12 @@ export default defineConfig({
           const assetFileName = name === 'contentStyle' ? `${name}${getCacheInvalidationKey()}` : name;
           return `assets/[ext]/${assetFileName}.chunk.[ext]`;
         },
+      },
+      onwarn(warning, warn) {
+        if (warning.code === 'MODULE_LEVEL_DIRECTIVE' && warning.message.includes(`"use client"`)) {
+          return;
+        }
+        warn(warning);
       },
     },
   },
