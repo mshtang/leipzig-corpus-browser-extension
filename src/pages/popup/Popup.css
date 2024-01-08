@@ -42,3 +42,7 @@
     transform: rotate(0deg);
   }
 }
+
+.Results-container {
+  margin-top: 24px;
+}
