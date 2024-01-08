@@ -17,7 +17,7 @@ const Results: React.FC<ResultsProps> = ({ results, error, query }) => {
           <Sentence key={index} sentence={sentence.sentence} source={sentence.source} queryWord={query} />
         ))}
       </List>
-      {error && <Text>{error}</Text>}
+      {error && <Text>Error: {error}</Text>}
     </VStack>
   );
 };

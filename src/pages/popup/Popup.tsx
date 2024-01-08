@@ -8,14 +8,13 @@ import Results from './components/Results';
 import SearchBar from './components/SearchBar';
 import Settings from './components/Settings';
 import { SettingsContext } from './contexts/SettingsContext';
-import { ApiResponseForSentence } from './types/ApiResponseInterfaces';
+import useFetchSentences from './hooks/useFetchSentences';
 
 const Popup = () => {
   const [selectedCorpus, setSelectedCorpus] = useState(availableCorpus[0]?.corpusName || '');
   const [itemsToShow, setItemsToShow] = useState(10);
   const [query, setQuery] = useState('');
-  const [results, setResults] = useState(null);
-  const [error, setError] = useState(null);
+  const { results, error, fetchSentences } = useFetchSentences(selectedCorpus, query, itemsToShow);
 
   const handleQueryChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setQuery(event.target.value);
@@ -23,18 +22,7 @@ const Popup = () => {
 
   const handleFormSubmit = async (event: { preventDefault: () => void }) => {
     event.preventDefault();
-    try {
-      const response = await fetch(
-        `https://api.wortschatz-leipzig.de/ws/sentences/${selectedCorpus}/sentences/${query}?limit=${itemsToShow}`,
-      );
-      if (!response.ok) {
-        console.log(`HTTP error! status: ${response.status}`);
-      }
-      const data: ApiResponseForSentence = await response.json();
-      setResults(data);
-    } catch (error) {
-      setError(error.message);
-    }
+    fetchSentences();
   };
 
   return (
