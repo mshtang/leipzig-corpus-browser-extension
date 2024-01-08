@@ -35,7 +35,7 @@ const SearchBar: React.FC = () => {
     <VStack spacing={4} align="stretch">
       <HStack as="form" onSubmit={handleFormSubmit}>
         <Input placeholder="Type a word" value={query} onChange={handleQueryChange} />
-        <Button mt={2} colorScheme="teal" type="submit">
+        <Button type="submit">
           <img src={logo} alt="search button" className="App-logo" style={{ height: '100%' }} />
         </Button>
       </HStack>

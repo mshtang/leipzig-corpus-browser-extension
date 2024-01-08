@@ -1,0 +1,12 @@
+.Settings-icon:hover {
+  animation: Settings-icon-spin 3s linear infinite;
+}
+
+@keyframes Settings-icon-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
