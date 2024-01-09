@@ -46,3 +46,9 @@
 .Results-container {
   margin-top: 24px;
 }
+
+.Pagination-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

@@ -6,18 +6,18 @@ const useFetchSentences = (selectedCorpus: string, query: string, itemsToShow: n
   const [results, setResults] = useState<ApiResponseForSentence | null>(null);
   const [error, setError] = useState<string | null>(null);
 
-  const fetchSentences = async () => {
+  const fetchSentences = async (offset: number = 0) => {
     try {
       let data: ApiResponseForSentence;
       if (process.env.NODE_ENV === 'development') {
-        console.log('Using mock data');
+        console.log('Using mock data, number of sentences: ', mockApiResponse.sentences.length);
 
-        data = mockApiResponse;
+        data = { ...mockApiResponse, sentences: mockApiResponse.sentences.slice(offset, offset + itemsToShow) };
       } else {
         console.log('Using real data');
 
         const response = await fetch(
-          `https://api.wortschatz-leipzig.de/ws/sentences/${selectedCorpus}/sentences/${query}?limit=${itemsToShow}`,
+          `https://api.wortschatz-leipzig.de/ws/sentences/${selectedCorpus}/sentences/${query}?limit=${itemsToShow}&offset=${offset}`,
         );
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);

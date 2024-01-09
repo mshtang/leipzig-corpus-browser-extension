@@ -1,94 +1,688 @@
 {
-  "count": 191,
+  "count": 76,
   "sentences": [
     {
-      "id": "192694",
-      "sentence": "Wenn Michael Löfflad morgens zur Arbeit kommt, sagt er nicht \"Hallo\" oder \"Guten Morgen\".",
+      "id": "358713",
+      "sentence": "Hallo, ich hab das aus verschiedenen Englischen Foren.",
       "source": {
-        "id": "64251",
-        "url": "http://www.ftd.de/karriere-management/karriere/:executive-education-gewappnet-fuer-die-karriere-in-asien/70046322.html#utm_source=rss&utm_medium=rss_feed&utm_campaign=/",
-        "date": "2012-06-05"
+        "id": "185561",
+        "url": "http://www.motorsport-magazin.com/formel1/news-148294-ferrari-macht-sich-keine-illusionen-nicht-zufrieden-bis-wir-schnellste-auto-haben.html",
+        "date": "2012-07-26"
       }
     },
     {
-      "id": "2623152",
-      "sentence": "Hallo ihr weiblichen Hässletten.",
+      "id": "91532",
+      "sentence": "Hallo und herzlich willkommen beim Live-Ticker von der Bundesliga.",
       "source": {
-        "id": "345288",
-        "url": "http://www.blogigo.de/mettenhof/Joern-Allers-Jerry-Anderson-Seebad-Kiel-Duesternbrook/627/",
-        "date": "2012-05-03"
+        "id": "728",
+        "url": "http://sport.t-online.de/sc-freiburg-fc-bayern-muenchen-das-spiel-zum-nachlesen/id_61101422/index",
+        "date": "2012-11-29"
       }
     },
     {
-      "id": "2524190",
-      "sentence": "Spaichingen Es ist fast wie beim Verwandtenbesuch: zur Begrüßung ein wenig Durcheinander und ein freundliches Hallo.",
+      "id": "640680",
+      "sentence": "Hallo, hab da mal ne frage.",
       "source": {
-        "id": "18203",
-        "url": "http://www.schwaebische.de/region/sigmaringen-tuttlingen/spaichingen/stadtnachrichten-spaichingen_artikel,-Wie-ein-ganz-normaler-Verwandtenbesuch-_arid,5348827.html?et_cid=2&et_lid=2",
-        "date": "2012-11-18"
+        "id": "515226",
+        "url": "http://www.abakus-internet-marketing.de/foren/viewtopic/p-887883.html#887883",
+        "date": "2012-11-28"
       }
     },
     {
-      "id": "1381470",
-      "sentence": "Hallo, in einigen Tagen erhalten wir Telekom Entertain (IPTV).",
+      "id": "412766",
+      "sentence": "Hallo Ihr Alle!",
       "source": {
-        "id": "305285",
-        "url": "http://www.linux-community.de/Internal/Nachrichten/LinuxCommunity-Jobauswahl-vom-12.01.2012",
-        "date": "2012-01-15"
+        "id": "436",
+        "url": "http://blog.zdf.de/zdfdasblog/2012/02/21/bittere-wahrheiten-ueber-griechenland/",
+        "date": "2012-02-21"
       }
     },
     {
-      "id": "2113778",
-      "sentence": "Der Autor von \"Fräulein Hallo und der Bauernkaiser: Chinas Gesellschaft von unten\" lebt gegenwärtig in Deutschland.",
+      "id": "703704",
+      "sentence": "Hallo, ich habe mir eine Kinect zugelegt, um zu schauen, was man damit unter Linux so machen k..",
       "source": {
-        "id": "39038",
-        "url": "http://www.abendblatt.de/kultur-live/article2409773/Nobelpreis-fuer-einen-braven-Chinesen.html",
-        "date": "2012-10-12"
+        "id": "260690",
+        "url": "http://www.linux-community.de/Internal/Artikel/Print-Artikel/LinuxUser/2012/02/Lenovo-Thinkpad-Tablet-im-Test",
+        "date": "2012-01-24"
       }
     },
     {
-      "id": "2200731",
-      "sentence": "SPIEGEL ONLINE: Hallo, Herr Prahl, können wir kurz über das 4:4 der deutschen Nationalmannschaft gegen Schweden reden?",
+      "id": "258636",
+      "sentence": "Hallo Ich habe zwei Designs erstellen lassen und im Footer meine Brand verlinken lassen.",
       "source": {
-        "id": "39192",
-        "url": "http://www.spiegel.de/sport/fussball/tatort-star-prahl-zum-4-4-zwischen-deutschland-und-schweden-a-861822.html#ref=rss",
-        "date": "2012-10-17"
+        "id": "354340",
+        "url": "http://www.abakus-internet-marketing.de/foren/viewtopic/p-861645.html#861645",
+        "date": "2012-05-13"
+      }
+    },
+    {
+      "id": "526694",
+      "sentence": "Hallo zusammen, Ein bekannter hat mir gefragt ob ich Informationen über diese Münze rausfinden kann.",
+      "source": {
+        "id": "266826",
+        "url": "http://www.goldseiten.de/artikel/126583--Legend-Gold-entdeckt-neue-mineralisierte-Zone-bei-Lakanfla.html",
+        "date": "2012-01-31"
+      }
+    },
+    {
+      "id": "765472",
+      "sentence": "Sprecher: Hallo und herzlich willkommen.",
+      "source": {
+        "id": "54581",
+        "url": "http://www.presseportal.de/pm/41193/2188544/ots-audio-kfw-ratgeber-podcast-10-kfw-award-bauen-und-wohnen-modernisieren-mit-weitblick/rss",
+        "date": "2012-01-27"
+      }
+    },
+    {
+      "id": "666407",
+      "sentence": "Die Österreicher grüßen am häufigsten mit \"Hallo\".",
+      "source": {
+        "id": "17123",
+        "url": "http://kurier.at/nachrichten/4493984-oesterreicher-gruessen-mit-hallo.php",
+        "date": "2012-04-27"
+      }
+    },
+    {
+      "id": "4626",
+      "sentence": "Hallo Leser, hier ist einer mehr!",
+      "source": {
+        "id": "26322",
+        "url": "http://www.spiegel.de/kultur/gesellschaft/0,1518,810407,00.html#ref=rss",
+        "date": "2012-01-21"
+      }
+    },
+    {
+      "id": "816496",
+      "sentence": "Gerade in Phasen, in denen es nicht läuft, muss einer da sein, der sagt: Hallo, hier bin ich!",
+      "source": {
+        "id": "219772",
+        "url": "http://www.focus.de/sport/mehrsport/handball-nationalmannschaft-brand-flache-hierarchien-sind-bloedsinn_aid_849829.html",
+        "date": "2012-10-30"
+      }
+    },
+    {
+      "id": "120610",
+      "sentence": "Das große Hallo der Mitarbeiter für den Fotografen bewies, dass diesen das Projekt gut getan hat.",
+      "source": {
+        "id": "48759",
+        "url": "http://www.schwaebische.de/region/sigmaringen-tuttlingen/tuttlingen/stadtnachrichten-tuttlingen_artikel,-Bilder-stellen-eine-Vision-dar-_arid,5359146.html?et_cid=2&et_lid=2",
+        "date": "2012-12-04"
+      }
+    },
+    {
+      "id": "397849",
+      "sentence": "Hallo, weiss wer wann das EMD Update hier in de war?",
+      "source": {
+        "id": "229000",
+        "url": "http://www.abakus-internet-marketing.de/foren/viewtopic/p-887513.html#887513",
+        "date": "2012-11-25"
+      }
+    },
+    {
+      "id": "79371",
+      "sentence": "Hallo CSU, kann es sein, dass es nicht ein Zeichen von Konsequenz, sonder von Sturheit darstellt, wenn Dinge, die neu bewertet werden, trotz aller Bedenken durchgeboxt werden sollen?",
+      "source": {
+        "id": "150431",
+        "url": "http://www.spiegel.de/politik/deutschland/0,1518,829067,00.html#ref=rss",
+        "date": "2012-04-23"
+      }
+    },
+    {
+      "id": "749998",
+      "sentence": "Das ist ein Verfahren, das er schon in seinen früheren Werken, etwa dem eindrucksvollen Fräulein Hallo und der Bauernkaiser angewandt hat, um, wie der Autor gern sagt, Stimmen vor dem Vergessen zu bewahren.",
+      "source": {
+        "id": "22908",
+        "url": "http://www.zeit.de/2012/43/Liao-Yiwu-Die-Kugel-und-das-Opium",
+        "date": "2012-10-25"
+      }
+    },
+    {
+      "id": "243643",
+      "sentence": "Damit will er sagen: Hallo Leute, lasst uns nicht die Politik vergessen – in unserer Straße, in unserem Stadtviertel, in unserem Land.",
+      "source": {
+        "id": "844",
+        "url": "http://www.stern.de/kultur/kunst/7-berlin-biennale-der-provokateur-1818418.html#utm_source=standard&utm_medium=rssfeed&utm_campaign=kultur",
+        "date": "2012-04-25"
+      }
+    },
+    {
+      "id": "383832",
+      "sentence": "Hallo, kommen die auch vom anderen Stern?",
+      "source": {
+        "id": "311307",
+        "url": "http://www.blogigo.de/rabenmutter/Ich-hab-soooo-einen-dicken/702/",
+        "date": "2012-03-23"
+      }
+    },
+    {
+      "id": "624694",
+      "sentence": "Hallo, Leute, was soll das denn für eine Sendung werden?",
+      "source": {
+        "id": "258",
+        "url": "http://www.faz.net/frankfurter-allgemeine-zeitung/feuilleton/die-talkshows-der-ard-dann-halt-wieder-euro-11763919.html",
+        "date": "2012-05-30"
+      }
+    },
+    {
+      "id": "379033",
+      "sentence": "Auf Tschechisch heißt das unter Freunden nicht nur Hallo.",
+      "source": {
+        "id": "509970",
+        "url": "http://www.zeit.de/2012/42/City-Guide-Prag-Karlsbruecke",
+        "date": "2012-11-20"
+      }
+    },
+    {
+      "id": "743143",
+      "sentence": "Hallo, Adsense hat für Januar 250 Euro von den geschätzten Einnahmen abgezogen.",
+      "source": {
+        "id": "273799",
+        "url": "http://www.abakus-internet-marketing.de/foren/viewtopic/p-845646.html#845646",
+        "date": "2012-02-08"
       }
     },
     {
       "id": "889847",
       "sentence": "\"Hallo Megan, hallo Jeremy, ich hoffe, diese Nachricht erreicht Euch und Euch geht es gut\", sagte der Vater.",
       "source": {
-        "id": "51788",
+        "id": "43897",
         "url": "http://feeds.rp-online.de/~r/rp-online/rss/topnews/~3/0Fhnc1ChZiw/story01.htm",
         "date": "2012-09-27"
       }
     },
     {
-      "id": "1666739",
-      "sentence": "Hallo, alle mal herhören: Falls Ihr einen Markt für Nierenspenden organisieren wollt, kommt es darauf an, ob die Niere den Empfänger wählen kann oder umgekehrt.",
+      "id": "828534",
+      "sentence": "Hallo, ich möchte ein seit 10 Jahre bestehendes Forum nach einem kompletten Neustart wieder etwas pushen und möchte dazu qualitativ hochwertige Backlinks kaufen.",
       "source": {
-        "id": "139747",
-        "url": "http://www.blick.ch/news/wirtschaft/vontobel/haben-wir-keine-anderen-probleme-id2071194.html",
-        "date": "2012-10-17"
+        "id": "268701",
+        "url": "http://www.abakus-internet-marketing.de/foren/viewtopic/p-844613.html#844613",
+        "date": "2012-02-02"
       }
     },
     {
-      "id": "1365034",
-      "sentence": "Aber eine Krawall-Wertung von 73% ist immerhin etwas, wovon so manche Filmumsetzung nur träumen kann (Hallo, \"Tron: Evolution\").",
+      "id": "97401",
+      "sentence": "Hallo, habe in den Artikel noch einen deutlichen Hinweis dazu aufgenommen.",
       "source": {
-        "id": "338830",
-        "url": "http://www.krawall.de/web/James_Bond_007_Blood_Stone/news/id,61694/",
-        "date": "2012-04-16"
+        "id": "429781",
+        "url": "http://rss.feedsportal.com/c/33374/f/578069/p/1/s/51abc88d/l/0L0Sgolem0Bde0Cnews0Cstiftung0Ewarentest0Eo20Eund0Ee0Eplus0Eumgehen0Edatenroaming0Ekostenlimit0Eim0Eausland0E120A80E937810Erss0Bhtml/story01.htm",
+        "date": "2012-08-13"
       }
     },
     {
-      "id": "2033756",
-      "sentence": "17.05 Uhr: Servus, Hallo und Guten Tag vom heutigen RudB-Closer!",
+      "id": "846938",
+      "sentence": "Beide Mannschaften sagen Hallo, tasten sich ab, beschnuppern sich. Wir warten auf Ausrufezeichen!",
       "source": {
-        "id": "3244",
-        "url": "http://www.spox.com/de/sport/fussball/rundumdenball/1205/02-05-tagesticker-shinji-kagawa-robert-lewandowski-borussia-dortmund-eren-derdiyok-1899-hoffenheim-bayer-leverkusen.html",
-        "date": "2012-05-02"
+        "id": "1009",
+        "url": "http://www.blick.ch/sport/fussball/nati/siegt-die-nati-in-tunesien-id2105624.html",
+        "date": "2012-11-14"
+      }
+    },
+    {
+      "id": "698035",
+      "sentence": "Hallo, ich habe zwar damit gerechnet, dass das Update wie angekündigt irgendwann kommt.",
+      "source": {
+        "id": "339534",
+        "url": "http://rss.feedsportal.com/c/33374/f/578069/p/1/s/74ef02c8/l/0L0Sgolem0Bde0Cnews0Cice0Ecream0Esandwich0Esony0Eerweitert0Efunktionsumfang0Edes0Etablet0Es0Emit0Eandroid0E40E0A0E120A40E91430A0Erss0Bhtml/story01.htm",
+        "date": "2012-04-26"
+      }
+    },
+    {
+      "id": "316371",
+      "sentence": "Hallo GEO-Team, ich höre die Podcasts jetzt schon einige Zeit und finde das sie wirklich gelungen sind.",
+      "source": {
+        "id": "567",
+        "url": "http://www.geo.de/GEO/reisen/70567.html?nv=rss&utm_source=geo_rssfeed&utm_medium=rssfeed&utm_campaign=geo-feed",
+        "date": "2012-01-05"
+      }
+    },
+    {
+      "id": "773696",
+      "sentence": "Er wusste nicht wo das Läuten herkam, aber nahm stattdessen die Maus an sein rechtes Ohr und rief 'Hallo?",
+      "source": {
+        "id": "353072",
+        "url": "http://www.blogigo.de/alcide/Aeussere-Realitaet-und-innerer-Text/209/",
+        "date": "2012-05-11"
+      }
+    },
+    {
+      "id": "58514",
+      "sentence": "Da hab ich mir mit meinen neun Jahren schon gedacht: Hallo?",
+      "source": {
+        "id": "225330",
+        "url": "http://kurier.at/sport/fussball/zum-glueck-musste-ich-nie-kicken/1.171.334",
+        "date": "2012-11-14"
+      }
+    },
+    {
+      "id": "21753",
+      "sentence": "Hallo ihr Lieben:) ich hoffe ihr genießt den Sommer, die Sonne & die Fußball EM.",
+      "source": {
+        "id": "382986",
+        "url": "http://www.blogigo.de/Princess_Diary/Ich-vermisse-das-was-war-und-nicht-mehr/18/",
+        "date": "2012-06-17"
+      }
+    },
+    {
+      "id": "138690",
+      "sentence": "Gerd: Hallo, ich heiße Gerd und ich bin Berater.",
+      "source": {
+        "id": "1195",
+        "url": "http://www.spiegel.de/karriere/berufsleben/einsteiger-und-aussteiger-in-der-unternehmensberatung-a-833376.html#ref=rss",
+        "date": "2012-05-20"
+      }
+    },
+    {
+      "id": "319835",
+      "sentence": "Die U-Bahn hält, abrupt werde ich aus meiner Versunkenheit gerissen, denn eine Kollegin steigt mit ihrem sechsjährigen Sohn ein und läßt durch lautes Hallo alle Aufmerksamkeit auf uns lenken.",
+      "source": {
+        "id": "112686",
+        "url": "http://feedproxy.google.com/~r/kokhavivpublications/~3/k_jpRcqspRE/7200.php",
+        "date": "2012-01-14"
+      }
+    },
+    {
+      "id": "243988",
+      "sentence": "\"Hallo Bruder, dieses Mal fahren wir aus Italien ab\"",
+      "source": {
+        "id": "13736",
+        "url": "http://www.spiegel.de/panorama/0,1518,810120,00.html#ref=rss",
+        "date": "2012-01-19"
+      }
+    },
+    {
+      "id": "245312",
+      "sentence": "\"Hallo M. hab bei dir geklingelt aber hast du wohl nicht gehört.",
+      "source": {
+        "id": "7912",
+        "url": "http://www.blogigo.de/Ausgebrannt/Tschaka/441/",
+        "date": "2012-01-25"
+      }
+    },
+    {
+      "id": "106729",
+      "sentence": "Hallo und herzlich willkommen, liebe Leichtathletik-Fans, zum Weltklasse Zürich im Letzigrund.",
+      "source": {
+        "id": "444155",
+        "url": "http://www.blick.ch/sport/leichtathletik/alle-entscheidungen-an-weltklasse-zuerich-id2016889.html",
+        "date": "2012-08-30"
+      }
+    },
+    {
+      "id": "988226",
+      "sentence": "Hallo zusammen, mich interessieren eure Erfahrungen zum Thema Linkbuilder steuern.",
+      "source": {
+        "id": "306912",
+        "url": "http://www.abakus-internet-marketing.de/foren/viewtopic/p-852141.html#852141",
+        "date": "2012-03-17"
+      }
+    },
+    {
+      "id": "480963",
+      "sentence": "\"Hallo Vergangenheit\" zeigt einen gelungenen Brückenschlag zwischen mechanischen und organischen Klängen.",
+      "source": {
+        "id": "44213",
+        "url": "http://www.laut.de/Nazar/Narkose-(Album)",
+        "date": "2012-10-01"
+      }
+    },
+    {
+      "id": "750814",
+      "sentence": "Suchst du nach Hallo Welt ohne die Anführungsstriche, dann sucht dir Google Seiten raus wo Hallo und Welt irgendwo auf der Seite vorkommen.",
+      "source": {
+        "id": "271058",
+        "url": "http://www.abakus-internet-marketing.de/foren/viewtopic/p-845031.html#845031",
+        "date": "2012-02-05"
+      }
+    },
+    {
+      "id": "750814",
+      "sentence": "Suchst du nach Hallo Welt ohne die Anführungsstriche, dann sucht dir Google Seiten raus wo Hallo und Welt irgendwo auf der Seite vorkommen.",
+      "source": {
+        "id": "271058",
+        "url": "http://www.abakus-internet-marketing.de/foren/viewtopic/p-845031.html#845031",
+        "date": "2012-02-05"
+      }
+    },
+    {
+      "id": "870299",
+      "sentence": "Etwa sechs Anbieter zählt der Marktführer zu seinen stärksten Konkurrenten, darunter Hallo Pizza.",
+      "source": {
+        "id": "194536",
+        "url": "http://www.abendblatt.de/wirtschaft/article2376835/Pizza-Service-per-Elektroroller-Joeys-zieht-Bilanz.html",
+        "date": "2012-08-21"
+      }
+    },
+    {
+      "id": "305928",
+      "sentence": "Hallo, ich bin Masahiro Sakurai, der Produzent der Super Smash Bros.-Reihe.",
+      "source": {
+        "id": "37333",
+        "url": "http://www.gbase.de/global/news/0/Super-Smash-Bros-Namco-Bandai-hilft-aus-53936.html",
+        "date": "2012-06-22"
+      }
+    },
+    {
+      "id": "832576",
+      "sentence": "Das \"Hallo\" war groß am Vormittag - aber die Bundeskanzlerin mischte sich nicht unter die Gäste.",
+      "source": {
+        "id": "41275",
+        "url": "http://www.dw.de/dw/0,,9077,00.html?maca=de-newsisfree_newsheadlines-23-rdf#16176680",
+        "date": "2012-08-18"
+      }
+    },
+    {
+      "id": "783411",
+      "sentence": "\"Hallo, wie gehts?",
+      "source": {
+        "id": "113688",
+        "url": "http://www.blogigo.de/Philosopsychiges/Rein-hypothetisch/30/",
+        "date": "2012-01-17"
+      }
+    },
+    {
+      "id": "192694",
+      "sentence": "Wenn Michael Löfflad morgens zur Arbeit kommt, sagt er nicht \"Hallo\" oder \"Guten Morgen\".",
+      "source": {
+        "id": "18295",
+        "url": "http://www.ftd.de/karriere-management/karriere/:executive-education-gewappnet-fuer-die-karriere-in-asien/70046322.html#utm_source=rss&utm_medium=rss_feed&utm_campaign=/",
+        "date": "2012-06-05"
+      }
+    },
+    {
+      "id": "267234",
+      "sentence": "Hallo, ich habe gerade mit browseo.net meine Seite analysiert.",
+      "source": {
+        "id": "178550",
+        "url": "http://www.abakus-internet-marketing.de/foren/viewtopic/p-869644.html#869644",
+        "date": "2012-07-07"
+      }
+    },
+    {
+      "id": "296979",
+      "sentence": "Das gibt dann ein Hallo! im Grossraumbüro, wenn angeblich alle wie wild mit ihren gesenkten Köpfen an den neuen Quartalszahlen arbeiten und dann aus mehreren Computern synchron die allseits bekannte Jinglemelodie von McDonnald's aus den Laptops dröhnt.",
+      "source": {
+        "id": "536534",
+        "url": "http://rss.feedsportal.com/c/32381/f/448624/s/26f0b419/l/0L0Sheise0Bde0Ctp0Cblogs0C40C1533980Cfrom0Crss20A/story01.htm",
+        "date": "2012-12-26"
+      }
+    },
+    {
+      "id": "380255",
+      "sentence": "Die Gewinner des \"Hallo Erde!",
+      "source": {
+        "id": "222420",
+        "url": "http://www.presseportal.de/pm/52007/2357766/die-gewinner-des-hallo-erde-verbraucherpreises-stehen-fest-mehr-als-11-000-verbraucher-beteiligten/rss",
+        "date": "2012-11-06"
+      }
+    },
+    {
+      "id": "64678",
+      "sentence": "Hallo HP, ich kaufe eure Produkte nicht wegen irgendwelcher Crapware die da drauf kommt.",
+      "source": {
+        "id": "283153",
+        "url": "http://rss.feedsportal.com/c/33374/f/578068/p/1/s/410c566c/l/0L0Sgolem0Bde0Cnews0Cautonomy0Esiert0Eintelligentere0Epcs0Eund0Edrucker0Evon0Ehp0E120A20E898860Erss0Bhtml/story01.htm",
+        "date": "2012-02-20"
+      }
+    },
+    {
+      "id": "938859",
+      "sentence": "Hallo, Mr. Belafonte, können Sie nicht ein bisschen lauter sprechen?",
+      "source": {
+        "id": "15544",
+        "url": "http://www.zeit.de/2012/11/Harry-Belafonte",
+        "date": "2012-03-12"
+      }
+    },
+    {
+      "id": "718917",
+      "sentence": "Hallo zusammen, ich hab im Jahr 2007 über das Forum eine größere Menge an Silberbarren gekauft.",
+      "source": {
+        "id": "446143",
+        "url": "http://www.goldseiten.de/artikel/147756--Integra-Gold-schneidet-5-Meter-mit-2015-g~t-Gold.html",
+        "date": "2012-09-01"
+      }
+    },
+    {
+      "id": "480189",
+      "sentence": "Ja,und Herr K. kam auch noch Hallo sagen,nu beginnt das Jahr richtig.",
+      "source": {
+        "id": "241806",
+        "url": "http://www.blogigo.de/Suzie2/Das-war-nicht-schlecht/5750/",
+        "date": "2012-01-02"
+      }
+    },
+    {
+      "id": "232249",
+      "sentence": "Hallo Was haltet ihr von Rhodium in Münzenform?",
+      "source": {
+        "id": "289432",
+        "url": "http://www.goldseiten.de/artikel/129389--Schweden-dementiert-Goldkaeufe.html",
+        "date": "2012-02-27"
+      }
+    },
+    {
+      "id": "864370",
+      "sentence": "Hallo, mir hat blau.de die AllNetFlat dazugebucht, ohne das ich eine Bestellung.",
+      "source": {
+        "id": "206029",
+        "url": "http://www.golem.de/news/blau-de-bestandskunden-koennen-handy-und-datenflatrate-buchen-1209-94736.html",
+        "date": "2012-09-24"
+      }
+    },
+    {
+      "id": "94895",
+      "sentence": "Hallo, ich kann dir ebenfalls x-plane ans Herz legen.",
+      "source": {
+        "id": "130222",
+        "url": "http://rss.feedsportal.com/c/33374/f/578068/p/1/s/2f2c8176/l/0L0Sgolem0Bde0Cnews0Cms0Eflight0Eangespielt0Ekostenloses0Eflugtraining0Eueber0Ehawaii0E120A20E90A1310Erss0Bhtml/story01.htm",
+        "date": "2012-02-29"
+      }
+    },
+    {
+      "id": "784519",
+      "sentence": "Hallo uuurmele, Ich kann Dir nicht folgen.",
+      "source": {
+        "id": "190407",
+        "url": "http://rss.feedsportal.com/c/33374/f/578069/p/1/s/3c228ef0/l/0L0Sgolem0Bde0Cnews0Cueberwachung0Esachsen0Everwirft0Eplaene0Ezur0Ebuergerbeobachtung0Ebei0Efacebook0E120A80E937440Erss0Bhtml/story01.htm",
+        "date": "2012-08-09"
+      }
+    },
+    {
+      "id": "839097",
+      "sentence": "Hallo LGTPANAPP, schönen Gruß von der IFA.",
+      "source": {
+        "id": "446474",
+        "url": "http://rss.feedsportal.com/c/33374/f/578069/p/1/s/7073ccd/l/0L0Sgolem0Bde0Cnews0Cxmg0Ep7220Enotebook0Emit0E3d0Edisplay0Eohne0Ebrille0E120A80E942640Erss0Bhtml/story01.htm",
+        "date": "2012-09-02"
+      }
+    },
+    {
+      "id": "937022",
+      "sentence": "Das ist nicht schwer zu verstehen: Stellen Sie sich vor, Sie sitzen mit Freunden beim Abendessen, und plötzlich schiebt ein Fremder einen Stuhl heran, setzt sich dazu und sagt \"Hallo!",
+      "source": {
+        "id": "85827",
+        "url": "http://www.harvardbusinessmanager.de/heft/artikel/a-829229.html#ref=rss",
+        "date": "2012-08-08"
+      }
+    },
+    {
+      "id": "806203",
+      "sentence": "Hallo Genossen, danke schön!",
+      "source": {
+        "id": "4217",
+        "url": "http://www.spiegel.de/politik/deutschland/jakob-augstein-ueber-spd-kanzlerkandidat-steinbrueck-a-858877.html#ref=rss",
+        "date": "2012-10-01"
+      }
+    },
+    {
+      "id": "851318",
+      "sentence": "Dann schaltet die Tafel um auf das Werbesujet einer teuren Jeansmarke mit dem Slogan: \"Hallo Libanon\".",
+      "source": {
+        "id": "21541",
+        "url": "http://kurier.at/nachrichten/4511938-libanon-papst-in-der-naehe-der-kampfzone.php",
+        "date": "2012-09-14"
+      }
+    },
+    {
+      "id": "490128",
+      "sentence": "\"Hallo, Tach zusammen\", sagt Steffen Simon leise, als er das Produktionsbüro betritt, ein stickiger Container, der vor allem wegen der Kaffeemaschine gebraucht wird, oder falls es regnet.",
+      "source": {
+        "id": "441127",
+        "url": "http://www.abendblatt.de/kultur-live/tv-und-medien/article2381823/Steffen-Simon-Ich-nehme-konstruktive-Kritik-sehr-ernst.html",
+        "date": "2012-08-27"
+      }
+    },
+    {
+      "id": "593588",
+      "sentence": "Hallo KTM X-Bow R - das vierrädrige Nichtvorhandensein von allem, was sich zwischen die Nervenenden von Auto und Fahrer mogeln könnte.",
+      "source": {
+        "id": "7546",
+        "url": "http://rss.feedsportal.com/c/685/f/434709/s/2700241b/l/0L0Sauto0Emotor0Eund0Esport0Bde0Cnews0Ctraumautos0Eder0Eredakteure0Egarage0Evoll0Ewunschautos0E63610A280Bhtml/story01.htm",
+        "date": "2012-12-28"
+      }
+    },
+    {
+      "id": "17864",
+      "sentence": "Denn für Rektorin Petra Seibert sind beides Reizwörter, beides empfindet sie als unhöflich und hat daher ab sofort ihre Schule zur \"Hallo- und Tschüs-freien Zone\" erklärt.",
+      "source": {
+        "id": "121427",
+        "url": "http://www.spiegel.de/schulspiegel/0,1518,813418,00.html#ref=rss",
+        "date": "2012-02-05"
+      }
+    },
+    {
+      "id": "490095",
+      "sentence": "Dritte Auswechslung bei Tunesien: Fakhreddine Ben Youssef sagt Hallo, Hamadi Harbaoui hat Feierabend.",
+      "source": {
+        "id": "1009",
+        "url": "http://www.blick.ch/sport/fussball/nati/siegt-die-nati-in-tunesien-id2105624.html",
+        "date": "2012-11-14"
+      }
+    },
+    {
+      "id": "860076",
+      "sentence": "Originell ist das Albumrezept: Unter dem Motto \"Hallo Welt\" dudelt er sich durch den Wellensalat diverser Radiosender und stoppt immer dann, wenn ihm etwas gefällt - damit hat er nun sogar ein Konzeptalbum vorgelegt.",
+      "source": {
+        "id": "440539",
+        "url": "http://www.ftd.de/lifestyle/entertainment/:neue-musik-veroeffentlichungen-der-woche/70081671.html#utm_source=rss&utm_medium=rss_feed&utm_campaign=/",
+        "date": "2012-08-26"
+      }
+    },
+    {
+      "id": "776295",
+      "sentence": "Doch der Azubitag ist weit mehr als Gaumenfreude, das zeigt das „große Hallo“ hinter den Kulissen. 28 ehemalige Auszubildende haben sich es nicht nehmen lassen, dabei zu sein, Freude und Spaß am Kellnern, Kochen und Servieren zu erleben.",
+      "source": {
+        "id": "121404",
+        "url": "http://www.schwaebische.de/region/bodensee/friedrichshafen/stadtnachrichten-friedrichshafen_artikel,-%E2%80%9EAn-diesem-Tag-gibt%E2%80%99s-nur-Strahlemaenner%E2%80%9C-_arid,5202500.html?et_cid=2&et_lid=2",
+        "date": "2012-02-05"
+      }
+    },
+    {
+      "id": "443945",
+      "sentence": "In der die Schildkröte Crush über Flatscreens mit den Restaurantgästen kommuniziert, und in der Micky Maus und Co. schon mal in den Innenkabinen am (Bildschirm-)Bullauge vorbeischwimmen und ein Hallo winken.",
+      "source": {
+        "id": "112614",
+        "url": "http://www.spiegel.de/reise/aktuell/0,1518,808697,00.html#ref=rss",
+        "date": "2012-01-13"
+      }
+    },
+    {
+      "id": "550578",
+      "sentence": "S. Fischer hatte das bahnbrechende „Fräulein Hallo und der Bauernkaiser“ im Programm; ein Buch, das im chinesischen Samisdat, in der nichtkonformen Literaturszene, kursierte.",
+      "source": {
+        "id": "213959",
+        "url": "http://www.taz.de/Friedenspreis-des-Buchhandels/!103557/",
+        "date": "2012-10-15"
+      }
+    },
+    {
+      "id": "176237",
+      "sentence": "In der Filmkomödie \"Hallo, Mr. President\" spielte er 1995 den fiktionalen US-Präsidenten Andrew Shepherd.",
+      "source": {
+        "id": "444653",
+        "url": "http://www.schwaebische.de/journal/kultur/kino_artikel,-Michael-Douglas-verhandelt-ueber-Rolle-als-Ronald-Reagan-_arid,5308821.html?et_cid=2&et_lid=2",
+        "date": "2012-08-30"
+      }
+    },
+    {
+      "id": "265979",
+      "sentence": "Hallo Alle, jetzt dachte ich \"ha, endlich den Upate für mein Tablet 10.1\", aber mein.",
+      "source": {
+        "id": "484781",
+        "url": "http://rss.feedsportal.com/c/33374/f/578068/p/1/s/238bcdd/l/0L0Sgolem0Bde0Cnews0Cice0Ecream0Esandwich0Eandroid0E40E0A0E40Efuer0Esamsungs0Egalaxy0Etab0E10A0E10Eist0Eda0E1210A0E949590Erss0Bhtml/story01.htm",
+        "date": "2012-10-22"
+      }
+    },
+    {
+      "id": "689680",
+      "sentence": "Er wurde 1963 unter großem Hallo von ihrem Kunsthändler-Vater für 92000 Pfund ersteigert, als Postimpressionisten noch nicht so en vogue waren.",
+      "source": {
+        "id": "115718",
+        "url": "http://www.handelsblatt.com/lifestyle/kunstmarkt/auktionen/grosse-kunst-fuers-privatmuseum/6091926.html",
+        "date": "2012-01-22"
+      }
+    },
+    {
+      "id": "340371",
+      "sentence": "Die meisten Beiträge gehen jedoch über ein kurzes \"Hallo, wie geht's!",
+      "source": {
+        "id": "48471",
+        "url": "http://www.heise.de/newsticker/meldung/Wii-U-geht-online-Langes-Update-flinker-Browser-1760527.html/from/rss09",
+        "date": "2012-11-30"
+      }
+    },
+    {
+      "id": "899794",
+      "sentence": "\"Hallo, wie gehts\" fragt Dagmar Koller den 62-jährigen Altrocker, Autor und Filmemacher Reinhold Bilgeri.",
+      "source": {
+        "id": "264222",
+        "url": "http://tv.orf.at/program/orf2/20120128/572886801/330565",
+        "date": "2012-01-28"
+      }
+    },
+    {
+      "id": "113087",
+      "sentence": "NET-Frühkritik: „Hart aber fair“: Hallo, Herr Nackt-Mull!",
+      "source": {
+        "id": "111955",
+        "url": "http://www.faz.net/aktuell/politik/inland/affaere-des-bundespraesidenten-wulffs-anwalt-leitete-schon-fragen-der-presse-weiter-11603947.html",
+        "date": "2012-01-12"
+      }
+    },
+    {
+      "id": "280838",
+      "sentence": "In einem raucht er eine Zigarette und sagt: „What´s up and hi to all my fans“ („Was gibt´s neues und Hallo an alle meine Fans“), während im Hintergrund Madonnas Lied „La Isla Bonita“ spielt.",
+      "source": {
+        "id": "375080",
+        "url": "http://www.focus.de/panorama/welt/ermittlungen-zu-montreal-moerder-magnotta-polizei-findet-botschaft-in-leichen-paketen_aid_763906.html",
+        "date": "2012-06-07"
+      }
+    },
+    {
+      "id": "108198",
+      "sentence": "\"Tschüss\", \"Hallo\", \"Hi\" und \"Ciao\" sind eher Formulierungen der Unter-30-Jährigen.",
+      "source": {
+        "id": "17123",
+        "url": "http://kurier.at/nachrichten/4493984-oesterreicher-gruessen-mit-hallo.php",
+        "date": "2012-04-27"
+      }
+    },
+    {
+      "id": "206429",
+      "sentence": "Es gibt ungefähr 300 Gespräche und Porträts und dann gibt es eben diese große Autobiografie (in den beim Fischer-Verlag erschienenen Büchern \"Fräulein Hallo und der Bauernkaiser: Chinas Gesellschaft von unten\", 2009, und \"Für ein Lied und hundert Lieder.",
+      "source": {
+        "id": "6023",
+        "url": "http://www.dw.de/dw/article/0,,16041271,00.html",
+        "date": "2012-06-21"
+      }
+    },
+    {
+      "id": "918983",
+      "sentence": "Das Tier kann nach ihren Angaben folgende Wörter verständlich von sich geben: „annyong“ (Hallo), „anja“ (Setz dich), „aniyo“ (Nein), „nuo“ (Leg dich hin) und „choah“ (gut).",
+      "source": {
+        "id": "99078",
+        "url": "http://www.focus.de/wissen/natur/tiere-und-pflanzen/von-pflegern-aufgeschnappt-zoo-elefant-koshik-spricht-fuenf-worte-koreanisch_aid_851098.html",
+        "date": "2012-11-01"
       }
     }
   ]
