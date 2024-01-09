@@ -1,0 +1,19 @@
+.Search-icon {
+  height: 30vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Search-icon {
+    animation: Search-icon-spin 0.5s linear;
+  }
+}
+
+@keyframes Search-icon-spin {
+  from {
+    transform: rotate(-90deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}

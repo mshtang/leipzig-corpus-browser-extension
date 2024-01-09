@@ -1,5 +1,6 @@
 import availableCorpus from '@assets/dataSource/availableCorpus.json';
-import { Box, Grid, GridItem } from '@chakra-ui/react';
+import logo from '@assets/img/logo-512.png';
+import { Box, Grid, GridItem, Text } from '@chakra-ui/react';
 import '@pages/popup/Popup.css';
 import withErrorBoundary from '@src/shared/hoc/withErrorBoundary';
 import withSuspense from '@src/shared/hoc/withSuspense';
@@ -54,16 +55,35 @@ const Popup = () => {
             <Settings />
           </GridItem>
         </Grid>
-        <Box className="Results-container" ref={resultsRef}>
-          <Results
-            results={results}
-            error={error}
-            query={query}
-            currentPage={currentPage}
-            pageSize={itemsToShow}
-            onPageChange={handlePageChange}
-          />
-        </Box>
+        {results ? (
+          <Box className="Results-container" ref={resultsRef}>
+            <Results
+              results={results}
+              error={error}
+              query={query}
+              currentPage={currentPage}
+              pageSize={itemsToShow}
+              onPageChange={handlePageChange}
+            />
+          </Box>
+        ) : (
+          <Box className="App-logo-container">
+            <a
+              className="App-logo"
+              href="https://corpora.uni-leipzig.de/en?corpusId=deu_typical-mixed_2018"
+              target="_blank"
+              rel="noopener noreferrer">
+              <img src={logo} alt="logo" />
+            </a>
+            <Text fontSize="xl" fontWeight="bold" color="blue.700">
+              Look a word up in a Leipzig Corpus
+            </Text>
+            <Box h={2} />
+            <Text fontSize="xs" color="gray.500">
+              Switch between corpora from the settings.
+            </Text>
+          </Box>
+        )}
       </Box>
     </SettingsContext.Provider>
   );

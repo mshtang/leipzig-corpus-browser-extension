@@ -1,6 +1,7 @@
 import logo from '@assets/img/logo.svg';
 import { Button, HStack, Input } from '@chakra-ui/react';
 import React from 'react';
+import './SearchBar.css';
 
 interface SearchBarProps {
   query: string;
@@ -13,7 +14,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ query, handleQueryChange, handleF
     <HStack as="form" onSubmit={handleFormSubmit}>
       <Input placeholder="Type a word" value={query} onChange={handleQueryChange} />
       <Button type="submit">
-        <img src={logo} alt="search button" className="App-logo" style={{ height: '100%' }} />
+        <img src={logo} alt="search button" className="Search-icon" style={{ height: '100%' }} />
       </Button>
     </HStack>
   );
