@@ -3,7 +3,7 @@ import { Box, Grid, GridItem } from '@chakra-ui/react';
 import '@pages/popup/Popup.css';
 import withErrorBoundary from '@src/shared/hoc/withErrorBoundary';
 import withSuspense from '@src/shared/hoc/withSuspense';
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import Pagination from './components/Pagination';
 import Results from './components/Results';
 import SearchBar from './components/SearchBar';
@@ -17,6 +17,18 @@ const Popup = () => {
   const [query, setQuery] = useState('');
   const [currentPage, setCurrentPage] = useState(1);
   const { results, error, fetchSentences } = useFetchSentences(selectedCorpus, query, itemsToShow);
+  const resultsRef = useRef<HTMLDivElement>(null);
+
+  // const [isFirstRender, setIsFirstRender] = useState(true);
+  // useEffect(() => {
+  //   setIsFirstRender(false);
+  // }, []);
+
+  useEffect(() => {
+    if (resultsRef.current && currentPage > 1) {
+      resultsRef.current.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }, [results, currentPage]);
 
   const handleQueryChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setQuery(event.target.value);
@@ -38,7 +50,7 @@ const Popup = () => {
             <Settings />
           </GridItem>
         </Grid>
-        <Box className="Results-container">
+        <Box className="Results-container" ref={resultsRef}>
           <Results results={results} error={error} query={query} />
         </Box>
         <Pagination
