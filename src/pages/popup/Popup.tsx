@@ -4,7 +4,6 @@ import '@pages/popup/Popup.css';
 import withErrorBoundary from '@src/shared/hoc/withErrorBoundary';
 import withSuspense from '@src/shared/hoc/withSuspense';
 import { useEffect, useRef, useState } from 'react';
-import Pagination from './components/Pagination';
 import Results from './components/Results';
 import SearchBar from './components/SearchBar';
 import Settings from './components/Settings';
@@ -39,6 +38,11 @@ const Popup = () => {
     fetchSentences();
   };
 
+  const handlePageChange = (page: number) => {
+    setCurrentPage(page);
+    fetchSentences((page - 1) * itemsToShow);
+  };
+
   return (
     <SettingsContext.Provider value={{ selectedCorpus, itemsToShow, setSelectedCorpus, setItemsToShow }}>
       <Box className="App">
@@ -51,18 +55,15 @@ const Popup = () => {
           </GridItem>
         </Grid>
         <Box className="Results-container" ref={resultsRef}>
-          <Results results={results} error={error} query={query} />
+          <Results
+            results={results}
+            error={error}
+            query={query}
+            currentPage={currentPage}
+            pageSize={itemsToShow}
+            onPageChange={handlePageChange}
+          />
         </Box>
-        <Pagination
-          className="Pagination-bar"
-          currentPage={currentPage}
-          totalCount={results?.count ?? 0}
-          pageSize={itemsToShow}
-          onPageChange={page => {
-            setCurrentPage(page);
-            fetchSentences((page - 1) * itemsToShow);
-          }}
-        />
       </Box>
     </SettingsContext.Provider>
   );
