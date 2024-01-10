@@ -65,7 +65,7 @@ const Settings = () => {
             <ModalHeader>Settings</ModalHeader>
             <ModalCloseButton />
             <ModalBody sx={{ paddingBottom: '32px' }}>
-              <Grid templateRows="repeat(3, auto)" templateColumns="repeat(2, auto)" gap={2}>
+              <Grid templateRows="repeat(3, auto)" templateColumns="repeat(2, auto)" gap={4}>
                 <GridItem rowStart={1} rowSpan={1} colStart={1} colSpan={1} justifySelf="end">
                   <Text as="b">Dark Theme</Text>
                 </GridItem>
@@ -76,14 +76,16 @@ const Settings = () => {
                   <Text as="b">Available Corpora</Text>
                 </GridItem>
                 <GridItem rowStart={2} rowSpan={1} colStart={2} colSpan={1}>
-                  <Select value={selectedCorpus} onChange={handleCorpusChange} size="xs">
+                  <Select value={selectedCorpus} variant="filled" onChange={handleCorpusChange} size="sm">
                     {availableCorpus.map(corpus => (
                       <option key={corpus.corpusName} value={corpus.corpusName}>
                         {corpus.corpusName}
                       </option>
                     ))}
                   </Select>
-                  <Text>{getCorpusDescription(selectedCorpus)}</Text>
+                  <Text fontSize="10px" color="gray">
+                    {getCorpusDescription(selectedCorpus)}
+                  </Text>
                 </GridItem>
                 <GridItem rowStart={3} rowSpan={1} colStart={1} colSpan={1} justifySelf="end">
                   <Text as="b">Items to show</Text>
