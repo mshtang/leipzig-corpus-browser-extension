@@ -4,6 +4,7 @@ import { ApiResponseForSentence } from '../types/ApiResponseInterfaces';
 import Pagination from './Pagination';
 import './Results.css';
 import Sentence from './Sentence';
+import Summary from './Summary';
 
 interface ResultsProps {
   results: ApiResponseForSentence | null;
@@ -19,7 +20,14 @@ const Results: React.FC<ResultsProps> = ({ results, error, query, currentPage, p
     <VStack spacing={4} align="stretch">
       {query && (
         <Box>
-          <List spacing={3}>
+          <Box sx={{ padding: '8px 0' }}>
+            <Summary
+              count={results.count}
+              start={(currentPage - 1) * pageSize + 1}
+              end={currentPage * pageSize > results.count ? results.count : currentPage * pageSize}
+            />
+          </Box>
+          <List spacing={1} maxHeight="calc(100vh - 135px)" overflowY="auto">
             {results?.sentences.map((sentence, index) => (
               <Sentence key={index} sentence={sentence.sentence} source={sentence.source} queryWord={query} />
             ))}

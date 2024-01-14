@@ -18,7 +18,7 @@ const Sentence: React.FC<SentenceProps> = ({ sentence, source, queryWord }) => {
   const domain = hostname.replace('www.', '');
 
   return (
-    <ListItem p={4} border="1px" borderColor="gray.200" borderRadius="md" mb={4}>
+    <ListItem p={1} border="1px" borderColor="gray.200" borderRadius="md" mb={1}>
       <Box position="relative" onMouseEnter={() => setShowChevron(true)} onMouseLeave={() => setShowChevron(false)}>
         <Text sx={{ minHeight: '24px', textAlign: 'justify' }} fontSize="sm">
           {/* TODO: show word preceding query also in bold */}

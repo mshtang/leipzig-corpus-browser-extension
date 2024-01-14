@@ -47,11 +47,11 @@ const Popup = () => {
   return (
     <SettingsContext.Provider value={{ selectedCorpus, itemsToShow, setSelectedCorpus, setItemsToShow }}>
       <Box className="App">
-        <Grid templateColumns="repeat(6, 1fr)" gap={6}>
-          <GridItem colStart={2} colSpan={4}>
+        <Grid templateColumns="repeat(7, 1fr)" gap={6}>
+          <GridItem colStart={2} colSpan={5}>
             <SearchBar query={query} handleQueryChange={handleQueryChange} handleFormSubmit={handleFormSubmit} />
           </GridItem>
-          <GridItem colStart={6} colSpan={1}>
+          <GridItem colStart={7} colSpan={1}>
             <Settings />
           </GridItem>
         </Grid>
