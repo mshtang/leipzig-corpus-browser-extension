@@ -41,8 +41,8 @@ dependencies:
 
 devDependencies:
   '@commitlint/cli':
-    specifier: 18.2.0
-    version: 18.2.0(@types/node@20.8.10)(typescript@5.3.3)
+    specifier: 18.4.4
+    version: 18.4.4(@types/node@20.8.10)(typescript@5.3.3)
   '@commitlint/config-conventional':
     specifier: 18.4.3
     version: 18.4.3
@@ -1475,8 +1475,8 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@commitlint/cli@18.2.0(@types/node@20.8.10)(typescript@5.3.3):
-    resolution: {integrity: sha512-F/DCG791kMFmWg5eIdogakuGeg4OiI2kD430ed1a1Hh3epvrJdeIAgcGADAMIOmF+m0S1+VlIYUKG2dvQQ1Izw==}
+  /@commitlint/cli@18.4.4(@types/node@20.8.10)(typescript@5.3.3):
+    resolution: {integrity: sha512-Ro3wIo//fV3XiV1EkdpHog6huaEyNcUAVrSmtgKqYM5g982wOWmP4FXvEDFwRMVgz878CNBvvCc33dMZ5AQJ/g==}
     engines: {node: '>=v18'}
     hasBin: true
     dependencies:
