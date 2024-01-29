@@ -2,7 +2,7 @@
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 import classnames from 'classnames';
 import { usePagination } from '../hooks/usePagination';
-import './pagination.css';
+import './Pagination.css';
 
 const Pagination = ({
   onPageChange,
