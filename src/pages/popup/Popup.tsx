@@ -5,6 +5,7 @@ import '@pages/popup/Popup.css';
 import withErrorBoundary from '@src/shared/hoc/withErrorBoundary';
 import withSuspense from '@src/shared/hoc/withSuspense';
 import { useEffect, useRef, useState } from 'react';
+import { IoMdArrowRoundBack } from 'react-icons/io';
 import Results from './components/Results';
 import SearchBar from './components/SearchBar';
 import Settings from './components/Settings';
@@ -47,14 +48,25 @@ const Popup = () => {
   return (
     <SettingsContext.Provider value={{ selectedCorpus, itemsToShow, setSelectedCorpus, setItemsToShow }}>
       <Box className="App">
-        <Grid templateColumns="repeat(7, 1fr)" gap={6}>
-          <GridItem colStart={2} colSpan={5}>
-            <SearchBar query={query} handleQueryChange={handleQueryChange} handleFormSubmit={handleFormSubmit} />
-          </GridItem>
-          <GridItem colStart={7} colSpan={1}>
-            <Settings />
-          </GridItem>
-        </Grid>
+        {!results ? (
+          <Grid templateColumns="repeat(7, 1fr)" gap={6}>
+            <GridItem colStart={2} colSpan={5}>
+              <SearchBar query={query} handleQueryChange={handleQueryChange} handleFormSubmit={handleFormSubmit} />
+            </GridItem>
+            <GridItem colStart={7} colSpan={1}>
+              <Settings />
+            </GridItem>
+          </Grid>
+        ) : (
+          <Grid templateColumns="repeat(7, 1fr)" gap={6}>
+            <GridItem colStart={1} colSpan={1}>
+              <IoMdArrowRoundBack />
+            </GridItem>
+            <GridItem colStart={7} colSpan={1}>
+              <Settings />
+            </GridItem>
+          </Grid>
+        )}
         {results ? (
           <Box className="Results-container" ref={resultsRef}>
             <Results
@@ -75,7 +87,7 @@ const Popup = () => {
               rel="noopener noreferrer">
               <img src={logo} alt="logo" />
             </a>
-            <Text fontSize="xl" fontWeight="bold" color="blue.700">
+            <Text fontSize="xl" fontWeight="bold" color="blue.700" style={{ marginTop: '36px' }}>
               Look a word up in a Leipzig Corpus
             </Text>
             <Box h={2} />
