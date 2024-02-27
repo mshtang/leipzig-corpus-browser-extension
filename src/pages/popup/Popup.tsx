@@ -17,13 +17,8 @@ const Popup = () => {
   const [itemsToShow, setItemsToShow] = useState(10);
   const [query, setQuery] = useState('');
   const [currentPage, setCurrentPage] = useState(1);
-  const { results, error, fetchSentences } = useFetchSentences(selectedCorpus, query, itemsToShow);
+  const { results, error, fetchSentences, setResults } = useFetchSentences(selectedCorpus, query, itemsToShow);
   const resultsRef = useRef<HTMLDivElement>(null);
-
-  // const [isFirstRender, setIsFirstRender] = useState(true);
-  // useEffect(() => {
-  //   setIsFirstRender(false);
-  // }, []);
 
   useEffect(() => {
     if (resultsRef.current && currentPage > 1) {
@@ -45,10 +40,15 @@ const Popup = () => {
     fetchSentences((page - 1) * itemsToShow);
   };
 
+  const goBack = () => {
+    setQuery('');
+    setResults(null);
+  };
+
   return (
     <SettingsContext.Provider value={{ selectedCorpus, itemsToShow, setSelectedCorpus, setItemsToShow }}>
       <Box className="App">
-        {!results ? (
+        {!results || query === '' ? (
           <Grid templateColumns="repeat(7, 1fr)" gap={6}>
             <GridItem colStart={2} colSpan={5}>
               <SearchBar query={query} handleQueryChange={handleQueryChange} handleFormSubmit={handleFormSubmit} />
@@ -60,7 +60,7 @@ const Popup = () => {
         ) : (
           <Grid templateColumns="repeat(7, 1fr)" gap={6}>
             <GridItem colStart={1} colSpan={1}>
-              <IoMdArrowRoundBack style={{ fontSize: '16px' }} />
+              <IoMdArrowRoundBack style={{ fontSize: '16px' }} onClick={goBack} />
             </GridItem>
           </Grid>
         )}

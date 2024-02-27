@@ -33,7 +33,7 @@ const useFetchSentences = (selectedCorpus: string, query: string, itemsToShow: n
     [selectedCorpus, query, itemsToShow],
   );
 
-  return { results, error, fetchSentences };
+  return { results, error, fetchSentences, setResults };
 };
 
 export default useFetchSentences;
