@@ -60,10 +60,7 @@ const Popup = () => {
         ) : (
           <Grid templateColumns="repeat(7, 1fr)" gap={6}>
             <GridItem colStart={1} colSpan={1}>
-              <IoMdArrowRoundBack />
-            </GridItem>
-            <GridItem colStart={7} colSpan={1}>
-              <Settings />
+              <IoMdArrowRoundBack style={{ fontSize: '16px' }} />
             </GridItem>
           </Grid>
         )}

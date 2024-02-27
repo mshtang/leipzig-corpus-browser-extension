@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 import classnames from 'classnames';
+import { HiEllipsisHorizontal } from 'react-icons/hi2';
 import { usePagination } from '../hooks/usePagination';
 import './Pagination.css';
 
@@ -54,7 +55,7 @@ const Pagination = ({
         if (pageNumber === -1) {
           return (
             <li key={idx} className="pagination-item dots">
-              &#8230;
+              <HiEllipsisHorizontal />
             </li>
           );
         }

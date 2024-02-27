@@ -20,7 +20,7 @@ const Results: React.FC<ResultsProps> = ({ results, error, query, currentPage, p
       {query && (
         <Box>
           <Box sx={{ padding: '8px 0' }}></Box>
-          <List spacing={1} maxHeight="calc(100vh - 112px)" overflowY="auto">
+          <List spacing={1} maxHeight="calc(100vh - 84px)" overflowY="auto">
             {results?.sentences.map((sentence, index) => (
               <Sentence key={index} sentence={sentence.sentence} source={sentence.source} queryWord={query} />
             ))}

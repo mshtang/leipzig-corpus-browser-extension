@@ -4,7 +4,7 @@
 
   .pagination-item {
     padding: 0 12px;
-    height: 32px;
+    height: 20px;
     text-align: center;
     margin: auto 4px;
     color: rgba(0, 0, 0, 0.87);
@@ -14,7 +14,7 @@
     letter-spacing: 0.01071em;
     border-radius: 16px;
     line-height: 1.43;
-    font-size: 13px;
+    font-size: 12px;
     min-width: 32px;
 
     &.dots:hover {
@@ -22,12 +22,12 @@
       cursor: default;
     }
     &:hover {
-      background-color: rgba(0, 0, 0, 0.04);
+      background-color: rgba(0, 123, 195, 0.2);
       cursor: pointer;
     }
 
     &.selected {
-      background-color: rgba(0, 0, 0, 0.08);
+      background-color: rgba(0, 123, 195, 0.6);
     }
 
     .arrow {
