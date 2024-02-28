@@ -1,6 +1,6 @@
 {
   "name": "leipzig-corpus-browser-extension",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "provides an easier way to query words from the Leipzig Corpus",
   "license": "MIT",
   "repository": {

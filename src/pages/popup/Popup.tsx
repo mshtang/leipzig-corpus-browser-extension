@@ -89,7 +89,7 @@ const Popup = () => {
             </Text>
             <Box h={2} />
             <Text fontSize="xs" color="gray.500">
-              Switch between corpora from the settings.
+              Change corpus from the settings.
             </Text>
           </Box>
         )}
